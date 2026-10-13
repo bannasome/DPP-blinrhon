@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* คุณสมบัติหลักของ Parallax */
+.parallax {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* หัวใจสำคัญของ Parallax */
+    min-height: 100vh;
+}
+
+/* รูปภาพที่ 1 */
+.img1 {
+    background-image: url('https://i.pinimg.com/474x/21/58/84/215884d9ce805b0b36bb30b1087114ae.jpg');
+}
+
+/* รูปภาพที่ 2 */
+.img2 {
+    background-image: url('https://i.pinimg.com/474x/b4/73/ac/b473ac481577a77725093b8757f7e34d.jpg');
+}
+
+/* จัดวางข้อความให้อยู่ตรงกลางรูปภาพ */
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.border {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+/* บล็อกสีดำตรงกลาง */
+.black-block {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.black-block h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
