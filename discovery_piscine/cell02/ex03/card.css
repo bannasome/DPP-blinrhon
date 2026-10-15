@@ -21,10 +21,10 @@ body {
 
 .card-header h2 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 
-/* ตารางแบบ Invisible Table (ไม่ใส่เส้นขอบ) */
+
 .profile-table {
     width: 100%;
     border-collapse: collapse;
@@ -67,5 +67,5 @@ body {
 }
 
 .contact-btn:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
